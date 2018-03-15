@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Arty from './arty'
 import { Provider } from 'react-redux'
 import store from './store'
+import PropTypes from 'prop-types'
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -15,4 +15,4 @@ ReactDOM.render(
     document.getElementById('root'));
 registerServiceWorker();
 
-Arty()
+
